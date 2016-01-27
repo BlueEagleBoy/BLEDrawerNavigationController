@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBDE91BC1C58A5100098AA99 /* BLETableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDE91BB1C58A5100098AA99 /* BLETableView.m */; };
+		BBDE91BF1C58A8700098AA99 /* BLEBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDE91BE1C58A8700098AA99 /* BLEBottomView.m */; };
+		BBDE91C31C58B7D30098AA99 /* BLEButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDE91C21C58B7D30098AA99 /* BLEButton.m */; };
+		BBEADDB61C577AF0006DF9F2 /* BLELeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEADDB51C577AF0006DF9F2 /* BLELeftView.m */; };
+		BBEADDDC1C57C4BF006DF9F2 /* BLEHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEADDDB1C57C4BF006DF9F2 /* BLEHeaderView.m */; };
+		BBEADE1F1C57D4AA006DF9F2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBEADE051C57D4AA006DF9F2 /* Info.plist */; };
+		BBEADE201C57D4AA006DF9F2 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEADE071C57D4AA006DF9F2 /* MASCompositeConstraint.m */; };
+		BBEADE211C57D4AA006DF9F2 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEADE0A1C57D4AA006DF9F2 /* MASConstraint.m */; };
+		BBEADE221C57D4AA006DF9F2 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEADE0C1C57D4AA006DF9F2 /* MASConstraintMaker.m */; };
+		BBEADE231C57D4AA006DF9F2 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEADE0E1C57D4AA006DF9F2 /* MASLayoutConstraint.m */; };
+		BBEADE241C57D4AA006DF9F2 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEADE121C57D4AA006DF9F2 /* MASViewAttribute.m */; };
+		BBEADE251C57D4AA006DF9F2 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEADE141C57D4AA006DF9F2 /* MASViewConstraint.m */; };
+		BBEADE261C57D4AA006DF9F2 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEADE161C57D4AA006DF9F2 /* NSArray+MASAdditions.m */; };
+		BBEADE271C57D4AA006DF9F2 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEADE191C57D4AA006DF9F2 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		BBEADE281C57D4AA006DF9F2 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEADE1B1C57D4AA006DF9F2 /* View+MASAdditions.m */; };
+		BBEADE291C57D4AA006DF9F2 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEADE1E1C57D4AA006DF9F2 /* ViewController+MASAdditions.m */; };
+		BBF53D9A1C55056B00C17858 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF53D991C55056B00C17858 /* main.m */; };
+		BBF53D9D1C55056B00C17858 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF53D9C1C55056B00C17858 /* AppDelegate.m */; };
+		BBF53DA31C55056B00C17858 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBF53DA11C55056B00C17858 /* Main.storyboard */; };
+		BBF53DA51C55056B00C17858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBF53DA41C55056B00C17858 /* Assets.xcassets */; };
+		BBF53DA81C55056B00C17858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBF53DA61C55056B00C17858 /* LaunchScreen.storyboard */; };
+		BBF53DB11C5505CC00C17858 /* BLEDrawerNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF53DB01C5505CC00C17858 /* BLEDrawerNavigationController.m */; };
+		BBF53DB41C55091400C17858 /* BLEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF53DB31C55091400C17858 /* BLEViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BBDE91BA1C58A5100098AA99 /* BLETableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLETableView.h; sourceTree = "<group>"; };
+		BBDE91BB1C58A5100098AA99 /* BLETableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLETableView.m; sourceTree = "<group>"; };
+		BBDE91BD1C58A8700098AA99 /* BLEBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEBottomView.h; sourceTree = "<group>"; };
+		BBDE91BE1C58A8700098AA99 /* BLEBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEBottomView.m; sourceTree = "<group>"; };
+		BBDE91C11C58B7D30098AA99 /* BLEButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEButton.h; sourceTree = "<group>"; };
+		BBDE91C21C58B7D30098AA99 /* BLEButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEButton.m; sourceTree = "<group>"; };
+		BBEADDB41C577AF0006DF9F2 /* BLELeftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLELeftView.h; sourceTree = "<group>"; };
+		BBEADDB51C577AF0006DF9F2 /* BLELeftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLELeftView.m; sourceTree = "<group>"; };
+		BBEADDDA1C57C4BF006DF9F2 /* BLEHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEHeaderView.h; sourceTree = "<group>"; };
+		BBEADDDB1C57C4BF006DF9F2 /* BLEHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEHeaderView.m; sourceTree = "<group>"; };
+		BBEADDDD1C57C531006DF9F2 /* Commen.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Commen.pch; sourceTree = "<group>"; };
+		BBEADE051C57D4AA006DF9F2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBEADE061C57D4AA006DF9F2 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		BBEADE071C57D4AA006DF9F2 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		BBEADE081C57D4AA006DF9F2 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		BBEADE091C57D4AA006DF9F2 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		BBEADE0A1C57D4AA006DF9F2 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		BBEADE0B1C57D4AA006DF9F2 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		BBEADE0C1C57D4AA006DF9F2 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		BBEADE0D1C57D4AA006DF9F2 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		BBEADE0E1C57D4AA006DF9F2 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		BBEADE0F1C57D4AA006DF9F2 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		BBEADE101C57D4AA006DF9F2 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		BBEADE111C57D4AA006DF9F2 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		BBEADE121C57D4AA006DF9F2 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		BBEADE131C57D4AA006DF9F2 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		BBEADE141C57D4AA006DF9F2 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		BBEADE151C57D4AA006DF9F2 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		BBEADE161C57D4AA006DF9F2 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		BBEADE171C57D4AA006DF9F2 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		BBEADE181C57D4AA006DF9F2 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		BBEADE191C57D4AA006DF9F2 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		BBEADE1A1C57D4AA006DF9F2 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		BBEADE1B1C57D4AA006DF9F2 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		BBEADE1C1C57D4AA006DF9F2 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		BBEADE1D1C57D4AA006DF9F2 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		BBEADE1E1C57D4AA006DF9F2 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		BBF53D951C55056B00C17858 /* 抽屉效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "抽屉效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBF53D991C55056B00C17858 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBF53D9B1C55056B00C17858 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BBF53D9C1C55056B00C17858 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BBF53DA21C55056B00C17858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBF53DA41C55056B00C17858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBF53DA71C55056B00C17858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBF53DA91C55056B00C17858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBF53DAF1C5505CC00C17858 /* BLEDrawerNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDrawerNavigationController.h; sourceTree = "<group>"; };
+		BBF53DB01C5505CC00C17858 /* BLEDrawerNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEDrawerNavigationController.m; sourceTree = "<group>"; };
+		BBF53DB21C55091400C17858 /* BLEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEViewController.h; sourceTree = "<group>"; };
+		BBF53DB31C55091400C17858 /* BLEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBF53D921C55056B00C17858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBDE91C01C58AA0E0098AA99 /* LeftViewSubviews */ = {
+			isa = PBXGroup;
+			children = (
+				BBEADDDA1C57C4BF006DF9F2 /* BLEHeaderView.h */,
+				BBEADDDB1C57C4BF006DF9F2 /* BLEHeaderView.m */,
+				BBDE91BD1C58A8700098AA99 /* BLEBottomView.h */,
+				BBDE91BE1C58A8700098AA99 /* BLEBottomView.m */,
+				BBDE91BA1C58A5100098AA99 /* BLETableView.h */,
+				BBDE91BB1C58A5100098AA99 /* BLETableView.m */,
+				BBDE91C11C58B7D30098AA99 /* BLEButton.h */,
+				BBDE91C21C58B7D30098AA99 /* BLEButton.m */,
+			);
+			name = LeftViewSubviews;
+			sourceTree = "<group>";
+		};
+		BBEADE041C57D4AA006DF9F2 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				BBEADE051C57D4AA006DF9F2 /* Info.plist */,
+				BBEADE061C57D4AA006DF9F2 /* MASCompositeConstraint.h */,
+				BBEADE071C57D4AA006DF9F2 /* MASCompositeConstraint.m */,
+				BBEADE081C57D4AA006DF9F2 /* MASConstraint+Private.h */,
+				BBEADE091C57D4AA006DF9F2 /* MASConstraint.h */,
+				BBEADE0A1C57D4AA006DF9F2 /* MASConstraint.m */,
+				BBEADE0B1C57D4AA006DF9F2 /* MASConstraintMaker.h */,
+				BBEADE0C1C57D4AA006DF9F2 /* MASConstraintMaker.m */,
+				BBEADE0D1C57D4AA006DF9F2 /* MASLayoutConstraint.h */,
+				BBEADE0E1C57D4AA006DF9F2 /* MASLayoutConstraint.m */,
+				BBEADE0F1C57D4AA006DF9F2 /* Masonry.h */,
+				BBEADE101C57D4AA006DF9F2 /* MASUtilities.h */,
+				BBEADE111C57D4AA006DF9F2 /* MASViewAttribute.h */,
+				BBEADE121C57D4AA006DF9F2 /* MASViewAttribute.m */,
+				BBEADE131C57D4AA006DF9F2 /* MASViewConstraint.h */,
+				BBEADE141C57D4AA006DF9F2 /* MASViewConstraint.m */,
+				BBEADE151C57D4AA006DF9F2 /* NSArray+MASAdditions.h */,
+				BBEADE161C57D4AA006DF9F2 /* NSArray+MASAdditions.m */,
+				BBEADE171C57D4AA006DF9F2 /* NSArray+MASShorthandAdditions.h */,
+				BBEADE181C57D4AA006DF9F2 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				BBEADE191C57D4AA006DF9F2 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				BBEADE1A1C57D4AA006DF9F2 /* View+MASAdditions.h */,
+				BBEADE1B1C57D4AA006DF9F2 /* View+MASAdditions.m */,
+				BBEADE1C1C57D4AA006DF9F2 /* View+MASShorthandAdditions.h */,
+				BBEADE1D1C57D4AA006DF9F2 /* ViewController+MASAdditions.h */,
+				BBEADE1E1C57D4AA006DF9F2 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		BBF53D8C1C55056B00C17858 = {
+			isa = PBXGroup;
+			children = (
+				BBF53D971C55056B00C17858 /* 抽屉效果 */,
+				BBF53D961C55056B00C17858 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBF53D961C55056B00C17858 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBF53D951C55056B00C17858 /* 抽屉效果.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBF53D971C55056B00C17858 /* 抽屉效果 */ = {
+			isa = PBXGroup;
+			children = (
+				BBEADE041C57D4AA006DF9F2 /* Masonry */,
+				BBDE91C01C58AA0E0098AA99 /* LeftViewSubviews */,
+				BBF53D9B1C55056B00C17858 /* AppDelegate.h */,
+				BBF53D9C1C55056B00C17858 /* AppDelegate.m */,
+				BBEADDB41C577AF0006DF9F2 /* BLELeftView.h */,
+				BBEADDB51C577AF0006DF9F2 /* BLELeftView.m */,
+				BBF53DAF1C5505CC00C17858 /* BLEDrawerNavigationController.h */,
+				BBF53DB01C5505CC00C17858 /* BLEDrawerNavigationController.m */,
+				BBEADDDD1C57C531006DF9F2 /* Commen.pch */,
+				BBF53DB21C55091400C17858 /* BLEViewController.h */,
+				BBF53DB31C55091400C17858 /* BLEViewController.m */,
+				BBF53DA11C55056B00C17858 /* Main.storyboard */,
+				BBF53DA41C55056B00C17858 /* Assets.xcassets */,
+				BBF53DA61C55056B00C17858 /* LaunchScreen.storyboard */,
+				BBF53DA91C55056B00C17858 /* Info.plist */,
+				BBF53D981C55056B00C17858 /* Supporting Files */,
+			);
+			path = "抽屉效果";
+			sourceTree = "<group>";
+		};
+		BBF53D981C55056B00C17858 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBF53D991C55056B00C17858 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBF53D941C55056B00C17858 /* 抽屉效果 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBF53DAC1C55056B00C17858 /* Build configuration list for PBXNativeTarget "抽屉效果" */;
+			buildPhases = (
+				BBF53D911C55056B00C17858 /* Sources */,
+				BBF53D921C55056B00C17858 /* Frameworks */,
+				BBF53D931C55056B00C17858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "抽屉效果";
+			productName = "抽屉效果";
+			productReference = BBF53D951C55056B00C17858 /* 抽屉效果.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBF53D8D1C55056B00C17858 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = BlueEagleBoy;
+				TargetAttributes = {
+					BBF53D941C55056B00C17858 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = JV36RFEX68;
+					};
+				};
+			};
+			buildConfigurationList = BBF53D901C55056B00C17858 /* Build configuration list for PBXProject "抽屉效果" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBF53D8C1C55056B00C17858;
+			productRefGroup = BBF53D961C55056B00C17858 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBF53D941C55056B00C17858 /* 抽屉效果 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBF53D931C55056B00C17858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEADE1F1C57D4AA006DF9F2 /* Info.plist in Resources */,
+				BBF53DA81C55056B00C17858 /* LaunchScreen.storyboard in Resources */,
+				BBF53DA51C55056B00C17858 /* Assets.xcassets in Resources */,
+				BBF53DA31C55056B00C17858 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBF53D911C55056B00C17858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDE91C31C58B7D30098AA99 /* BLEButton.m in Sources */,
+				BBEADE211C57D4AA006DF9F2 /* MASConstraint.m in Sources */,
+				BBEADE241C57D4AA006DF9F2 /* MASViewAttribute.m in Sources */,
+				BBEADE291C57D4AA006DF9F2 /* ViewController+MASAdditions.m in Sources */,
+				BBEADE261C57D4AA006DF9F2 /* NSArray+MASAdditions.m in Sources */,
+				BBF53DB41C55091400C17858 /* BLEViewController.m in Sources */,
+				BBDE91BC1C58A5100098AA99 /* BLETableView.m in Sources */,
+				BBEADE251C57D4AA006DF9F2 /* MASViewConstraint.m in Sources */,
+				BBEADE231C57D4AA006DF9F2 /* MASLayoutConstraint.m in Sources */,
+				BBF53D9D1C55056B00C17858 /* AppDelegate.m in Sources */,
+				BBF53DB11C5505CC00C17858 /* BLEDrawerNavigationController.m in Sources */,
+				BBEADE281C57D4AA006DF9F2 /* View+MASAdditions.m in Sources */,
+				BBDE91BF1C58A8700098AA99 /* BLEBottomView.m in Sources */,
+				BBEADE201C57D4AA006DF9F2 /* MASCompositeConstraint.m in Sources */,
+				BBEADE271C57D4AA006DF9F2 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				BBEADE221C57D4AA006DF9F2 /* MASConstraintMaker.m in Sources */,
+				BBEADDDC1C57C4BF006DF9F2 /* BLEHeaderView.m in Sources */,
+				BBF53D9A1C55056B00C17858 /* main.m in Sources */,
+				BBEADDB61C577AF0006DF9F2 /* BLELeftView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BBF53DA11C55056B00C17858 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBF53DA21C55056B00C17858 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBF53DA61C55056B00C17858 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBF53DA71C55056B00C17858 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBF53DAA1C55056B00C17858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBF53DAB1C55056B00C17858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBF53DAD1C55056B00C17858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "抽屉效果/Commen.pch";
+				INFOPLIST_FILE = "抽屉效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.buleeagle.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BBF53DAE1C55056B00C17858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "抽屉效果/Commen.pch";
+				INFOPLIST_FILE = "抽屉效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.buleeagle.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBF53D901C55056B00C17858 /* Build configuration list for PBXProject "抽屉效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBF53DAA1C55056B00C17858 /* Debug */,
+				BBF53DAB1C55056B00C17858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBF53DAC1C55056B00C17858 /* Build configuration list for PBXNativeTarget "抽屉效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBF53DAD1C55056B00C17858 /* Debug */,
+				BBF53DAE1C55056B00C17858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBF53D8D1C55056B00C17858 /* Project object */;
+}

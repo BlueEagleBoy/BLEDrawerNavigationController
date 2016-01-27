@@ -1,0 +1,20 @@
+//
+//  Commen.pch
+//  抽屉效果
+//
+//  Created by BlueEagleBoy on 16/1/26.
+//  Copyright © 2016年 BlueEagleBoy. All rights reserved.
+//
+
+#define wm_ScreenWidth [UIScreen mainScreen].bounds.size.width
+#define wm_ScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define BLEGestureMaxX 70
+
+#define BLETransformMaxW (wm_ScreenWidth - BLEGestureMaxX )
+
+#define wm_HeaderViewHeight 200
+
+#define wm_LeftViewBottomHeight 100
+#define BLELeftViewSettingNotification @"BLELeftViewSettingNotification"
+
